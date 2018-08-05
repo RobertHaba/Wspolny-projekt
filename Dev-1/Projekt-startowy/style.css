@@ -92,3 +92,35 @@ li {
 
 
 /* RESET */
+
+.page {
+    background-color: #FFF;
+    padding: 0;
+    margin: 0;
+}
+
+.page__content {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.page__section,
+.page__header,
+.page__footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page__layout {
+    width: 1200px;
+    height: 600px;
+}
+
+.page__layout--full {
+    width: 100%;
+}
