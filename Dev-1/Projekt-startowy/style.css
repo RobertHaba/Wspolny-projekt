@@ -83,6 +83,8 @@
         border: 0;
         font-size: 100%;
         font: inherit;
+        font-family: 'Montserrat', sans-serif; 
+        font-size: 16px;
         vertical-align: baseline;
     }
     
@@ -122,7 +124,32 @@
     .page__layout--full {
         width: 100%;
     }
+
+    /* === SECTION 3 styles ===*/
+    .grid__header {
+        padding: 80px;
+        text-align: center;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:  75vh 75vh;
+    }
+    .grid__div {
     
+    }
+    /* .grid__content {
+    } */
+    
+    .grid__div--p {
+        font-size: 0.7rem;
+    }
+    
+    .grid__div--a{
+        text-decoration: none;
+    }
+     /* === SECTION 3 ===*/
+
     button {
         border: none;
         padding: 0;
