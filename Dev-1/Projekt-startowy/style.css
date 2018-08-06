@@ -114,11 +114,6 @@
         align-items: center;
     }
     
-    .page__section {
-        background-color: #FFF;
-        height: 500px;
-    }
-    
     .page__layout {
         width: 1200px;
         height: 100%;
